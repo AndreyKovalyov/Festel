@@ -6,3 +6,5 @@ F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.Properties.Resourc
 F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.csproj.GenerateResource.Cache
 F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.exe
 F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.pdb
+F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.csprojResolveAssemblyReference.cache
+F:\Programms\My Git\Festel1\Festel1\Festel1\obj\Debug\Festel1.csproj.ResolveComReference.cache

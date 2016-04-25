@@ -21,6 +21,7 @@ namespace Festel1
         private void button1_Click(object sender, EventArgs e)
         {
             Telo festel = new Telo(Convert.ToInt32(textBox1.Text), textBox2.Text);//От этого пляшем :)
+            Func.algoritm();
         }
     }
 }
