@@ -24,12 +24,5 @@ namespace Festel1
             Telo festel = new Telo(Convert.ToInt32(textBox1.Text), textBox2.Text);//От этого пляшем :)
             Func.algoritm();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Program.Client.Open();
-            string command = "SELECT * FROM start_info";
-            MySqlCommand cmd = new MySqlCommand(command, Program.Client);
-        }
     }
 }
