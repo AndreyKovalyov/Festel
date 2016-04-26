@@ -7,6 +7,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.ComponentModel;
 using Microsoft.Office.Interop.Word;
+using MySql.Data.MySqlClient;
 
 
 namespace Festel1
