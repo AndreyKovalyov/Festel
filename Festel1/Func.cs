@@ -27,6 +27,10 @@ namespace Festel1
                 MessageBox.Show("Низя так делать. (Раунды > Кол-во ключей)");
                 Environment.Exit(0);
             }
+            else
+            {
+                word();
+            }
         }
 
         /// <summary>
