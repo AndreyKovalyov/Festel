@@ -9,8 +9,8 @@ namespace Festel1
     class Telo
     {
         public static int count;
-        public static int[] key = new int[255];
-        public static int[] di = new int[255];
+        public static int[] key;
+        public static int[] di;
         
 
         /// <summary>
@@ -57,9 +57,14 @@ namespace Festel1
         /// Возвращает ключи. xD (string[])
         /// </summary>
         /// <returns></returns>
-        public static string[] return_key()
+        public static int[] return_key()
         {
             return key;
+        }
+
+        public static int return_key_lenght()
+        {
+            return key.Length;
         }
     }
 }
