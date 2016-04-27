@@ -11,20 +11,15 @@ namespace Festel1
 {
     class MySql
     {
-        
-        DataTable GetComments()
+        MySql GetComments()
         {
-            DataTable dt = new DataTable();
-
+            MySql dt = new MySql();
             MySqlConnectionStringBuilder connect = new MySqlConnectionStringBuilder();
-
             connect.Server = "127.0.0.1";
             connect.Database = "Festel";
             connect.UserID = "root";
             connect.Password = "12345";
-
             return dt;
         }
-         
     }
 }
