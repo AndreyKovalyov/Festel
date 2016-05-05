@@ -129,6 +129,7 @@ namespace Festel1
         /// </summary>
         public static void rounds()
         {
+            Func.word();
             int[] key = Telo.return_key();
             for (int i = 0; i < Telo.return_count(); i++)
             {
